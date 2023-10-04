@@ -73,6 +73,29 @@ body {
 
 
 /* #region COMMON  */
+.riga-img, .riga-info, .imagine, .condizioni {
+    position: relative;
+}
+
+.hide, .cuore {
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
+.sconto, .stato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container, .riga-img, .riga-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+
 /* #endregion COMMON  */
 
 
@@ -150,26 +173,20 @@ main {
 .container {
     width: 70%;
     margin-top: 30px;
-    display: flex;
     flex-direction: column;
-    justify-content: space-around;
 }
 
 .riga-img, .riga-info{
     width: 100%;
-    display: flex;
-    justify-content: space-between;
     gap: 10px;
-    position: relative;
 }
 
 .riga-info {
     margin-bottom: 20px;
 }
 
-.imagine{
+.imagine {
     width: calc(100% / 3);
-    position: relative;
 }
 
 .hide:hover .cuore, .see{
@@ -194,8 +211,6 @@ main {
 }
 
 img {
-    width: 100%;
-    height: 100%;
     max-width: 100%;
 }
 
@@ -212,7 +227,6 @@ ul {
 }
 
 .condizioni {
-    position: relative;
     display: flex;
     justify-content: left;
     bottom: 40px;
@@ -220,28 +234,20 @@ ul {
 }
 
 .sconto {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 8%;
     min-width: 20px;
     background-color: red;
     padding: 3px;
     font-size: 8px;
-    color: white;
 }
 
 .stato {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 15%;
     min-width: 50px;
     background-color: green;
     bottom: 50px;
     padding: 3px;
     font-size: 8px;
-    color: white;
 }
 
 .marchio {
@@ -275,7 +281,6 @@ ul {
     height: 10px;
     top: 5px;
     right: 0;
-    color: black;
 }
 
 .cuore {
