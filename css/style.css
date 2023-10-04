@@ -6,6 +6,11 @@
 }
 /* #endregion RESET  */
 
+/* #region FONT  */
+body {
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+/* #endregion FONT  */
 
 /* #region DEBUG  */
 .debug header{
@@ -75,6 +80,7 @@
 header {
     display: flex;
     justify-content: center;
+    background-color: #ff6900;
 }
 
 .top-bar {
