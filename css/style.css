@@ -83,6 +83,7 @@ header {
     background-color: #ff6900;
     box-shadow: 0 0 3px 0 black;
     position: fixed;
+    z-index: 500;
     width: 100%;
     top: 0;
 }
@@ -159,6 +160,7 @@ main {
     display: flex;
     justify-content: space-between;
     gap: 10px;
+    position: relative;
 }
 
 .riga-info {
@@ -167,6 +169,16 @@ main {
 
 .imagine{
     width: calc(100% / 3);
+    position: relative;
+}
+
+.imagine:hover .cuore, .see{
+    display: none;
+}
+
+.imagine:hover .cuore, .unsee{
+    display: block;
+    color: red;
 }
 
 .imagine:hover .see {
@@ -256,17 +268,19 @@ ul {
     font-weight: 400;
     text-decoration: line-through;
 }
-/* .cuore {
-    position: relative;
-    bottom: 380px;
-    left: 140px;
-    width: 12%;
+
+.cuore {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 5px;
+    right: 0;
     background-color: white;
     text-align: center;
     padding: 3px;
-    font-size: 15px;
+    font-size: 20px;
     color: black;
-} */
+}
 
 /* #endregion MAIN  */
 
