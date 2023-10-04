@@ -252,6 +252,9 @@ ul {
 footer {
     display: flex;
     justify-content: center;
+    background-color: #1a1a1a;
+    color: white;
+    line-height: 20px;
 }
 
 .footer-bar {
@@ -261,12 +264,42 @@ footer {
 }
 
 .piede-riga1 {
+    padding-top: 10px;
     display: flex;
     justify-content: space-between;
+}
+
+.nav-left h2 {
+    font-size: 9px;
+}
+
+.nav-right h3 {
+    font-size: 8px;
 }
 
 .piede-riga2 {
     display: flex;
     justify-content: space-between;
+}
+
+.nav-left ul {
+    list-style: none;
+}
+
+.nav-left ul li {
+    display: inline;
+    font-size: 7px;
+    padding: 3px 3px 3px 0;
+}
+
+.piede-riga2 .nav-left{
+    width: 60%;
+    font-size: 8px;
+    padding-bottom: 15px;
+}
+
+.nav-right ul li {
+    display: inline;
+    font-size: 12px;
 }
 /* #endregion FOOTER  */
