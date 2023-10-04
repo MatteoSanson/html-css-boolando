@@ -85,7 +85,7 @@ header {
 
 .top-bar {
     width: 70%;
-    padding: 5px;
+    padding: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -100,6 +100,10 @@ header {
 .logo {
     text-align: center;
     width: 100%;
+}
+
+.bool-logo {
+    width: 20%;
 }
 
 .nav-right {
