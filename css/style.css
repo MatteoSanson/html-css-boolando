@@ -172,11 +172,11 @@ main {
     position: relative;
 }
 
-.imagine:hover .cuore, .see{
+.hide:hover .cuore, .see{
     display: none;
 }
 
-.imagine:hover .cuore, .unsee{
+.hide:hover .cuore, .unsee{
     display: block;
     color: red;
 }
@@ -267,6 +267,15 @@ ul {
     color: grey;
     font-weight: 400;
     text-decoration: line-through;
+}
+
+.hide {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 5px;
+    right: 0;
+    color: black;
 }
 
 .cuore {
