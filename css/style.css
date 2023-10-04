@@ -8,8 +8,18 @@
 
 
 /* #region DEBUG  */
-body.debug {
-    
+.debug header{
+    width: 100%;
+    height: 50px;
+    background-color: lightseagreen;
+}
+
+.debug .top-bar {
+    background-color: lightgreen;
+}
+
+.debug .nav-left, .debug .logo, .debug .nav-right{
+    border: 1px dashed black;
 }
 /* #endregion DEBUG  */
 
@@ -19,8 +29,33 @@ body.debug {
 
 
 /* #region HEADER  */
+header {
+    display: flex;
+    justify-content: center;
+}
 
+.top-bar {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.nav-left {
+    width: 200px;
+    min-width: 100px;
+}
+
+.logo {
+    text-align: center;
+    width: 100%;
+}
+
+.nav-right {
+    text-align: right;
+    width: 200px;
+    min-width: 100px;
+}
 /* #endregion HEADER  */
 
 
