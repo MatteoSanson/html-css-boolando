@@ -130,6 +130,10 @@ main {
     gap: 10px;
 }
 
+.riga-info {
+    margin-bottom: 20px;
+}
+
 .imagine{
     width: calc(100% / 3);
 }
@@ -173,23 +177,42 @@ ul {
 }
 
 .sconto {
-    width: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8%;
+    min-width: 20px;
     background-color: red;
-    text-align: center;
     padding: 3px;
     font-size: 8px;
     color: white;
 }
 
 .stato {
-    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    min-width: 50px;
     background-color: green;
     bottom: 50px;
-    text-align: center;
     padding: 3px;
     font-size: 8px;
     color: white;
 }
+
+/* .cuore {
+    position: relative;
+    bottom: 380px;
+    left: 140px;
+    width: 12%;
+    background-color: white;
+    text-align: center;
+    padding: 3px;
+    font-size: 15px;
+    color: black;
+} */
+
 /* #endregion MAIN  */
 
 
