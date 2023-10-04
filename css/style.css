@@ -164,7 +164,27 @@ ul {
     display: none;
 }
 
+.sconto {
+    width: 15%;
+    background-color: red;
+    position: relative;
+    bottom: 40px;
+    text-align: center;
+    padding: 3px;
+    font-size: 8px;
+    color: white;
+}
 
+.stato {
+    width: 40%;
+    background-color: green;
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+    padding: 3px;
+    font-size: 8px;
+    color: white;
+}
 /* #endregion MAIN  */
 
 
