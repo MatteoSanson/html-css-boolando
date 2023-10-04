@@ -232,6 +232,30 @@ ul {
     color: white;
 }
 
+.marchio {
+    font-size: 10px;
+}
+
+.modello {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.prezzo {
+    color: red;
+    font-weight: 500;
+    font-size: 11px;
+}
+
+.prezzo li {
+    display: inline;
+}
+
+.prezzo li:nth-child(2) {
+    color: grey;
+    font-weight: 400;
+    text-decoration: line-through;
+}
 /* .cuore {
     position: relative;
     bottom: 380px;
