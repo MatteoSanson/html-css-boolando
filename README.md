@@ -1,0 +1,1 @@
+# Scopo dell'esercizio è di ricreare il layout di pagina come da screeshot. Posizionare i vari elementi con le regole conosciute (flex, position, etc) e utilizzo di hover al passagio del mouse.
