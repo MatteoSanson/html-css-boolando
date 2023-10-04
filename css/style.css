@@ -85,13 +85,15 @@ header {
 
 .top-bar {
     width: 70%;
+    padding: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 10px;
 }
 
 .nav-left {
-    width: 200px;
+    width: 40%;
     min-width: 100px;
 }
 
@@ -102,8 +104,21 @@ header {
 
 .nav-right {
     text-align: right;
-    width: 200px;
+    width: 40%;
     min-width: 100px;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-top li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 /* #endregion HEADER  */
 
