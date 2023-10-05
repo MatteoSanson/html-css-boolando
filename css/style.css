@@ -208,6 +208,8 @@ main {
 
 .sezione-info {
     width: calc(100% / 3);
+    position: relative;
+    bottom: 15px;
 }
 
 img {
