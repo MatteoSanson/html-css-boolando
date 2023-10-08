@@ -198,11 +198,11 @@ main {
     color: red;
 }
 
-.imagine:hover .see {
+.imagine .prova123:hover .see {
     display: none;
 }
 
-.imagine:hover .unsee {
+.imagine .prova123:hover .unsee {
     display: block;
 }
 
